@@ -1,0 +1,168 @@
+h2{
+  margin-bottom: 20px;
+  
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #3498db; 
+    margin: 10px auto 0;
+}
+.row1{
+  margin-top: 80px !important;
+}
+.education .card {
+    background-color: #ffff;
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .education .card-body {
+    z-index: 10;
+    background: var(--surface-color);
+    border-top: 4px solid var(--surface-color);
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+  }
+  
+  .education .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #why-education-matters .card-title a {
+    color: #0056b3; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #why-education-matters .card-title a:hover {
+    text-decoration: underline;
+  }
+  #lifted .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  #why-education-matters .card-body {
+    padding: 20px;
+    display: block;
+  }
+  
+  #why-education-matters .fst-italic {
+    color: #6c757d; /* Bootstrap secondary text color */
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  #why-education-matters .card-text {
+    color: #333; /* Darker text for better contrast */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  section,
+  .section {
+    padding: 60px 0;
+    scroll-margin-top: 900px;
+    overflow: clip;
+    text-align: center;
+
+  }
+  /* Donate Section */
+.donate {
+  background-color: #3d838e;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  margin-top: 80px; 
+}
+
+.donate .btn {
+  font-size: 12px;
+  font-family: Arial;
+  width: 200px; 
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center; 
+  border-color: #18ab29;
+  border-radius: 28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #44c767;
+  text-transform: uppercase;
+}
+.student-img img {
+  width: 150px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Ensure the image fits within the diamond shape */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Diamond shape */
+  margin: 0 auto; /* Center the image */
+  display: block; /* Ensure it is displayed as a block element */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+li {
+  display: inline;
+  
+}
+#lifted{
+  margin-top: 80px !important;
+  padding: 60px 0;  
+  text-align: center;
+  background-color: #3d838e;
+}
+nav {
+  background-color: #333; /* Dark background color */
+  overflow: hidden; /* Clear floats */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left; /* Float items horizontally */
+}
+
+nav li a {
+  display: block; /* Make links fill the entire list item */
+  color: white; /* White text color */
+  text-align: center; /* Center text */
+  padding: 14px 16px; /* Add padding */
+  text-decoration: none; /* Remove underlines */
+}
+
+nav li a:hover {
+  background-color: #111; /* Darker background on hover */
+}
