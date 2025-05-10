@@ -56,6 +56,7 @@ body {
   
   #why-education-matters .card-title a:hover {
     text-decoration: underline;
+    
   }
   #lifted .card-title {
     font-weight: 700;
@@ -153,16 +154,414 @@ nav ul {
 
 nav li {
   float: left; /* Float items horizontally */
+  padding-inline:20px ;
 }
 
 nav li a {
   display: block; /* Make links fill the entire list item */
   color: white; /* White text color */
   text-align: center; /* Center text */
-  padding: 14px 16px; /* Add padding */
+  padding: 18px 20px; /* Add padding */
   text-decoration: none; /* Remove underlines */
 }
 
 nav li a:hover {
   background-color: #111; /* Darker background on hover */
 }
+nav {
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the links */
+}
+
+nav li {
+  display: inline; /* Display links horizontally */
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff; /* Example hover color */
+}
+
+/* Basic styling for dropdown */
+nav li ul {
+  display: none; /* Hide dropdown by default */
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+nav li:hover > ul {
+  display: block; /* Show dropdown on hover */
+}
+
+nav li ul li {
+  display: block; /* Display dropdown items vertically */
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #007bff; /* Example primary color */
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-form, .other-contact-info {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border are inside the element's width */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .contact-details {
+      grid-template-columns: 1fr; /* Stack the sections on smaller screens */
+  }
+
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+
+
+
+
+
+
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #007bff; /* Example primary color */
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.our-values ul, .our-facilities ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+}
+
+.team-member h3 {
+    margin-bottom: 0.2em;
+}
+
+.team-member .title {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr; /* Stack team members on smaller screens */
+    }
+
+
+
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+  }
+  
+  header {
+      background-color: #333;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  nav a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  nav a.active {
+      font-weight: bold;
+      border-bottom: 2px solid white;
+      padding-bottom: 5px;
+  }
+  
+  .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+  }
+  
+  h1, h2 {
+      color: #007bff; /* Example primary color */
+      margin-bottom: 0.5em;
+  }
+  
+  section {
+      margin-bottom: 2em;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+  }
+  
+  section h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5em;
+      margin-top: 0;
+  }
+  
+  section ul {
+      list-style: disc;
+      margin-left: 20px;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 1em 0;
+      background-color: #333;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  /* Responsive design (you might already have this) */
+  @media (max-width: 768px) {
+      nav ul li {
+          display: block;
+          margin: 10px 0;
+      }
+  
