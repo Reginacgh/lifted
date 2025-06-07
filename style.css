@@ -94,7 +94,7 @@ body {
   background-color: green;
   color: white;
   padding: 60px 0;
-  text-align: center;
+  text-align: right;
   margin-top: 80px; 
 }
 
@@ -647,7 +647,7 @@ input[type="email"] {
 }
 
 .donate-button {
-    background-color: #007bff;
+    background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
