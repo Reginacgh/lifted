@@ -4,65 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Your Educational Website</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <title>Contact Us - liftED</title>
+    <link href="https://jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
 <body>
+    <!--navbar-->
     <header>
-        <nav>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <span class="logo-main">lift</span><span class="logo-ed">ED</span>
             <ul>
+                <ul class="navbar-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
                 <li><a href="stories.html">Success stories</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
                 <li><a href="donate.html">Donate</a></li>
-
                 </ul>
+                <div class="navbar-actions">
+                    <a href="login.html" class="btn login-btn">Login</a>
+                    <a href="signup.html" class="btn signup-btn">Sign Up</a>
+                </div>
         </nav>
     </header>
 
     <main class="container">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you! Please use the form below or find our contact information.</p>
-
-        <div class="contact-details">
-            <section class="contact-form">
-                <h2>Send us a Message</h2>
-                <form action="#" method="POST"> <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="button">Send Message</button>
-                </form>
-            </section>
-
-            <section class="other-contact-info">
-                <h2>Other Ways to Connect</h2>
-                <p><strong>Address:</strong></p>
-                <address>
-                    123 Education Lane<br>
-                    Nairobi, Kenya
-                </address>
-                <p><strong>Email:</strong> <a href="mailto:info@youreducationwebsite.com">info@youreducationwebsite.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+254700000000">+254 700 000 000</a></p>
-                </section>
+        <div class="text-centre mb-5">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Please use the form below or find our contact information.</p>
         </div>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Your Educational Website</p>
-    </footer>
+        <div class="contact-hero mb-5">
+            <div class="row align-items-centre">
+                <div class="col-md-6">
+                    <img src="images/contact-hero.jpg" alt="Contact Us" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Get in Touch</h2>
+                    <p>Wether you want to learn more about our programas, volunteer your time or make a donation, we`re here to help. Our team is passsionate about education and ready to answer your questions. </p>
+                </div>
+                </div>
+        </div>
+         
+        <div class="row">
+            <div class="col-md-6">
+                     <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name"  required>
+                </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject">
+                </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="button">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="other-contact-info">
+          <h2>Other Ways to Connect</h2>
+          <p><strong>Address:</strong></p>
+          <address>
+            123 Education Lane<br>
+            Nairobi, Kenya
+          </address>
+          <p><strong>Email:</strong> <a href="mailto:info@lifted.org.ke">info@lifted.org.ke</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+254700123456">+254 700 123 456</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <h4>Empowering Children Through Education: Building Brighter Futures One Student at a Time.</h4>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="stories.html">Success Stories</a></li>
+          <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>Email: info@lifted.org.ke</li>
+          <li>Phone: +254 700 123 456</li>
+          <li>Website: www.lifted.org.ke</li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <form>
+          <input type="email" placeholder="Enter email address" required />
+          <button type="submit" class="btn signup-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2025 LiftED. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>

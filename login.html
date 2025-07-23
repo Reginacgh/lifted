@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate - liftED</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login - LiftED</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <!-- Navbar -->
   <header>
     <nav class="navbar">
       <div class="navbar-logo">
@@ -20,55 +19,29 @@
         <li><a href="stories.html">Success Stories</a></li>
         <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
         <li><a href="contactus.html">Contact Us</a></li>
-        <li><a href="donate.html" class="active">Donate</a></li>
+        <li><a href="donate.html">Donate</a></li>
       </ul>
       <div class="navbar-actions">
-        <a href="login.html" class="btn login-btn">Login</a>
+        <a href="login.html" class="btn login-btn active">Login</a>
         <a href="signup.html" class="btn signup-btn">Sign up</a>
       </div>
     </nav>
   </header>
-
-  <main class="container">
-    <section id="donation-form">
-      <div class="row align-items-center">
-        <div class="col-lg-8">
-          <h1>Support Our Mission</h1>
-          <p>Your contribution makes a difference in the lives of children who need it most.</p>
-        </div>
-        <div class="col-lg-4">
-          <img src="images/child-girl.jpg" alt="Child benefiting from educational support" class="img-fluid rounded">
-        </div>
+  <main class="container" style="max-width:400px;margin:40px auto;">
+    <h2>Login to LiftED</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
       </div>
-    </section>
-    
-    <div class="row justify-content-center">
-      <div class="col-md-8 col-lg-6">
-        <div class="card shadow">
-          <div class="card-body p-4">
-            <h2 class="text-center mb-4">Make a Donation</h2>
-            <form action="/process-donation" method="POST">
-              <div class="form-group">
-                <label for="amount">Donation Amount (USD):</label>
-                <input type="number" id="amount" name="amount" min="1" value="25" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-              </div>
-              <button type="submit" class="donate-button w-100">Donate Now</button>
-            </form>
-          </div>
-        </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
       </div>
-    </div>
+      <button type="submit" class="btn login-btn" style="width:100%;margin-top:16px;">Login</button>
+    </form>
+    <p style="margin-top:16px;">Don't have an account? <a href="signup.html">Sign up here</a>.</p>
   </main>
-
-  <!-- Footer -->
   <footer class="footer-section">
     <div class="container footer-container">
       <div class="footer-about">
@@ -80,6 +53,8 @@
           <li><a href="aboutus.html">About Us</a></li>
           <li><a href="stories.html">Success Stories</a></li>
           <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="donate.html">Donate</a></li>
         </ul>
       </div>
       <div class="footer-contact">
@@ -102,4 +77,4 @@
     </div>
   </footer>
 </body>
-</html>
+</html> 

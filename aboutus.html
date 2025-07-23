@@ -3,86 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Your Educational Website</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <title>About Us - liftED</title>
+    <link href="https://jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
 <body>
+    <!--navbar-->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <span class="logo-main">lift</span><span class="logo-ed">ED</span>
+            </div>
+                <ul class="navbar-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="aboutus.html" class="active">About Us</a></li>
                 <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
                 <li><a href="stories.html">Success Stories</a></li>
                 <li><a href="donate.html">Donate</a></li>
-
             </ul>
+            <div class="navbar-actions">
+                <a href="login.html" class="btn login-btn">login</a>
+                <a href="signup.html" class="btn signup-btn">Sign Up</a>
+            </div>
         </nav>
     </header>
     
     <main class="container">
-        <h1>About Our Institution</h1>
-
+        <h1>About liftED</h1>
         <section class="our-mission">
             <h2>Our Mission</h2>
-            <p>Our mission is to provide high-quality education that empowers students to achieve their full potential and become lifelong learners. We are committed to fostering a supportive and inclusive environment where curiosity is encouraged and innovation thrives.</p>
+            <p>LiftED is dedicated to breaking down barriers to education in underserved communities across Kenya. Our mission is to provide digital tools, scholarships, and safe learning environments that empower children to overcome poverty and achieve their dreams. We believe every child deserves access to quality education regardless of their background or circumstances.</p>
             </section>
-
         <section class="our-vision">
             <h2>Our Vision</h2>
-            <p>We envision a future where every individual has access to transformative education that equips them with the knowledge, skills, and values to make a positive impact on the world. We strive to be a leading educational institution recognized for its excellence and commitment to student success.</p>
+            <p>We envision a kenya  where every child has the opportunity to recieve quality education and build a brighter future.Through innovative digital learning solutions, community partnerships, and sustainable support system, we aim to create lasting change that lifts entirecommunities uot of poverty through education.</p>
             </section>
-
         <section class="our-values">
             <h2>Our Core Values</h2>
-            <ul>
-                <li><strong>Excellence:</strong> We are committed to the highest standards in teaching, learning, and research.</li>
-                <li><strong>Innovation:</strong> We embrace new ideas and approaches to enhance the educational experience.</li>
-                <li><strong>Inclusivity:</strong> We believe in creating a welcoming and diverse community for all.</li>
-                <li><strong>Integrity:</strong> We uphold ethical principles and transparency in all our actions.</li>
-                <li><strong>Collaboration:</strong> We foster partnerships and teamwork to achieve common goals.</li>
+         <ul>
+            <li><strong>Equity:</strong> We believe every child deserves equal access to quality education regardless of their socioeconomic background.</li>
+            <li><strong>Innovation:</strong> We leverage technology and creative solutions to overcome traditional barriers to education.</li>
+            <li><strong>Community:</strong> We work closely with local communities to ensure sustainable and culturally relevant educational programs.</li>
+            <li><strong>Transparency:</strong> We maintain open communication about our programs, impact, and use of donor funds.</li>
+            <li><strong>Empowerment:</strong> We focus on building confidence and leadership skills in students to create lasting change.</li>
             </ul>
         </section>
-
         <section class="our-history">
-            <h2>Our History</h2>
-            <p>Founded in [Year], [Institution Name] has a rich history of providing quality education in [Location]. We began as [brief origin story] and have grown to become a leading institution in [mention specific areas or achievements]. Over the years, we have [mention key milestones or developments].</p>
+            <h2>Our story</h2>
+            <p>Founded in 2020, liftEDbegan as a grassroot initiative in the Kawangware slam of Nairobi, where we witnessed firsthand the transformative power of education. What started with just 10 students has grawn into a comprihesive program serving over 500 children across multiple communities in kenya . Our journey has been marked by the incredible success stories of students like E lizabeth, Regina and Kevin, who have overcome sighificant barriers to persue their dreams. </p>
             </section>
-
         <section class="meet-the-team">
-            <h2>Meet Our Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <img src="placeholder-person.jpg" alt="John Doe">
-                    <h3>John Doe</h3>
-                    <p class="title">Principal</p>
-                    <p><a href="mailto:john.doe@youreducationwebsite.com">john.doe@youreducationwebsite.com</a></p>
-                    </div>
-                <div class="team-member">
-                    <img src="placeholder-person.jpg" alt="Jane Smith">
-                    <h3>Jane Smith</h3>
-                    <p class="title">Head of Academics</p>
-                    <p><a href="mailto:jane.smith@youreducationwebsite.com">jane.smith@youreducationwebsite.com</a></p>
-                    </div>
+            <h2>our impact</h2>
+            <div class="impact-stats">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Students supported</p>
                 </div>
-        </section>
+                <div class="stat-item">
+                    <h3>15</h3>
+                    <p>communities reached</p>
+                </div>
+                <div class="stat-item">
+                    <h3>95%</h3>
+                    <p>Success rate</p>
+                </div>
+       <div class="stat-item">
+          <h3>3</h3>
+          <p>Years of Service</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="our-leadership">
+      <h2>Our Leadership Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="images/principal.jpg" alt="Principal - LiftED Leadership Team">
+          <h3>David Kamau</h3>
+          <p class="title">Principal</p>
+          <p>Leading LiftED's mission to provide quality education to underserved communities across Kenya.</p>
+        </div>
+        <div class="team-member">
+          <img src="images/head-of-dept.jpg" alt="Head of Department - LiftED Leadership Team">
+          <h3>Sarah Muthoni</h3>
+          <p class="title">Head of Programs</p>
+          <p>Overseeing our educational programs and community outreach initiatives.</p>
+        </div>
+      </div>
+    </section>
+    <section class="our-facilities">
+      <h2>Our Programs</h2>
+      <p>We provide comprehensive educational support through various programs designed to meet the unique needs of underserved communities:</p>
+      <ul>
+        <li><strong>Digital Learning Centers:</strong> Computer labs and internet access for students to access online educational resources.</li>
+        <li><strong>Scholarship Programs:</strong> Financial support for school fees, uniforms, and learning materials.</li>
+        <li><strong>Mentorship Programs:</strong> One-on-one guidance from successful professionals and university students.</li>
+        <li><strong>Community Outreach:</strong> Educational workshops for parents and community leaders.</li>
+        <li><strong>Leadership Development:</strong> Programs to build confidence and leadership skills in students.</li>
+      </ul>
+    </section>
+  </main>
 
-        <section class="our-facilities">
-            <h2>Our Facilities</h2>
-            <p>We offer state-of-the-art facilities to support our students' learning and growth, including:</p>
-            <ul>
-                <li>Modern classrooms equipped with the latest technology.</li>
-                <li>Well-stocked library with extensive resources.</li>
-                <li>Advanced science and computer laboratories.</li>
-                <li>Sports facilities for physical activities.</li>
-                <li>Comfortable student common areas.</li>
-                </ul>
-            </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Your Educational Website</p>
-    </footer>
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <h4>Empowering Children Through Education: Building Brighter Futures One Student at a Time.</h4>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="stories.html">Success Stories</a></li>
+          <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>Email: info@lifted.org.ke</li>
+          <li>Phone: +254 700 123 456</li>
+          <li>Website: www.lifted.org.ke</li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <form>
+          <input type="email" placeholder="Enter email address" required />
+          <button type="submit" class="btn signup-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2025 LiftED. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
-</html>
+</html>              

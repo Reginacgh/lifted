@@ -3,115 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Why Education Matters - Your Educational Website</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <title>Why Education Matters - LiftED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="stories.html">Success Stories</a></li>
-                <li><a href="whyeducationmatters.html" class="active">Why Education Matters</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="donate.html">Donate</a></li>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <span class="logo-main">Lift</span><span class="logo-ed">ED</span>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="stories.html">Success Stories</a></li>
+        <li><a href="whyeducationmatters.html" class="active">Why Education Matters</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+      <div class="navbar-actions">
+        <a href="login.html" class="btn login-btn">Login</a>
+        <a href="signup.html" class="btn signup-btn">Sign up</a>
+      </div>
+    </nav>
+  </header>
 
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Section: Why Education Matters -->
-    <section id="why-education-matters" class="education section py-5">
-       
-        <div class="container">
-            <h2 class="text-center mb-5">Why Education Matters</h2>
-            <div class="row mt-4 row1">
-                <!-- Card 1: Breaking the Poverty Cycle -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="#">Breaking the Poverty Cycle</a></h5>
-                            <p class="fst-italic text-center">Education as a key to ending poverty</p>
-                            <p class="card-text">Education equips children with the knowledge and skills they need to
-                                secure better jobs and lift their families out of poverty. It ensures a brighter future
-                                for their communities.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2: Fostering Gender Equality -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-
-                        <div class="card-body">-
-                            <h5 class="card-title"><a href="#">Fostering Gender Equality</a></h5>
-                            <p class="fst-italic text-center">Empowering girls through education</p>
-                            <p class="card-text">Educated girls marry later, have healthier children, and are more
-                                likely to contribute to their communities. Education bridges the gender gap and fosters
-                                equality.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <!-- Card 3: Boosting Economic Growth -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="#">Boosting Economic Growth</a></h5>
-                            <p class="fst-italic text-center">Education fuels economies</p>
-                            <p class="card-text">Skilled individuals drive innovation and productivity, creating
-                                stronger economies. Every additional year of schooling increases earning potential and
-                                economic stability.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4: Promoting Peace -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-
-
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="#">Promoting Peace</a></h5>
-                            <p class="fst-italic text-center">Education reduces conflict</p>
-                            <p class="card-text">Educated individuals are more likely to resolve conflicts peacefully,
-                                fostering harmony in society. Knowledge promotes understanding and tolerance.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <!-- Card 5: Enhancing Health and Well-being -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="#">Enhancing Health and Well-being</a></h5>
-                            <p class="fst-italic text-center">Education for healthier lives</p>
-                            <p class="card-text">Education leads to healthier lifestyles by teaching the importance of nutrition, hygiene, and preventive care. Educated individuals make informed decisions, improving both their personal health and that of their communities.</p>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Card 6: Encouraging Environmental Sustainability -->
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="#">Encouraging Environmental Sustainability</a></h5>
-                            <p class="fst-italic text-center">Educating for a sustainable future</p>
-                            <p class="card-text">Education promotes environmental awareness and sustainable practices. It empowers individuals to take action toward preserving natural resources and combating climate change for future generations.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Section: Why Education Matters -->
+  <section id="why-education-matters" class="education section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Why Education Matters</h2>
+        <p class="lead">Education is the most powerful tool we can use to change the world. Here's why it matters for every child.</p>
+      </div>
+      
+      <div class="education-hero mb-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img src="images/children-code-3.jpg" alt="Children learning coding and technology skills" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-6">
+            <h3>Empowering Through Technology</h3>
+            <p>In today's digital world, access to technology and coding skills opens doors to countless opportunities. Our students learn not just traditional subjects, but also the digital skills that will prepare them for the future job market.</p>
+          </div>
         </div>
-    </section>
-  
-       
-    <footer>
-        <p>&copy; 2025 Your Educational Website</p>
-    </footer>
+      </div>
+      
+      <div class="row mt-4 row1">
+        <!-- Card 1: Breaking the Poverty Cycle -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Breaking the Poverty Cycle</h5>
+              <p class="fst-italic text-center">Education as a key to ending poverty</p>
+              <p class="card-text">Education equips children with the knowledge and skills they need to secure better jobs and lift their families out of poverty. It ensures a brighter future for their communities.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: Fostering Gender Equality -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Fostering Gender Equality</h5>
+              <p class="fst-italic text-center">Empowering girls through education</p>
+              <p class="card-text">Educated girls marry later, have healthier children, and are more likely to contribute to their communities. Education bridges the gender gap and fosters equality.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <!-- Card 3: Boosting Economic Growth -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Boosting Economic Growth</h5>
+              <p class="fst-italic text-center">Education fuels economies</p>
+              <p class="card-text">Skilled individuals drive innovation and productivity, creating stronger economies. Every additional year of schooling increases earning potential and economic stability.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4: Promoting Peace -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Promoting Peace</h5>
+              <p class="fst-italic text-center">Education reduces conflict</p>
+              <p class="card-text">Educated individuals are more likely to resolve conflicts peacefully, fostering harmony in society. Knowledge promotes understanding and tolerance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <!-- Card 5: Enhancing Health and Well-being -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Enhancing Health and Well-being</h5>
+              <p class="fst-italic text-center">Education for healthier lives</p>
+              <p class="card-text">Education leads to healthier lifestyles by teaching the importance of nutrition, hygiene, and preventive care. Educated individuals make informed decisions, improving both their personal health and that of their communities.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6: Encouraging Environmental Sustainability -->
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Encouraging Environmental Sustainability</h5>
+              <p class="fst-italic text-center">Educating for a sustainable future</p>
+              <p class="card-text">Education promotes environmental awareness and sustainable practices. It empowers individuals to take action toward preserving natural resources and combating climate change for future generations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <h4>Empowering Children Through Education: Building Brighter Futures One Student at a Time.</h4>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="stories.html">Success Stories</a></li>
+          <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>Email: info@lifted.org.ke</li>
+          <li>Phone: +254 700 123 456</li>
+          <li>Website: www.lifted.org.ke</li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <form>
+          <input type="email" placeholder="Enter email address" required />
+          <button type="submit" class="btn signup-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2025 LiftED. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>

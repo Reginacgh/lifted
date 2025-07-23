@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success Stories</title>
+    <title>Success Stories - LiftED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Inspiring Success Stories</h1>
-    </header>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <span class="logo-main">Lift</span><span class="logo-ed">ED</span>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="stories.html" class="active">Success Stories</a></li>
+        <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+      <div class="navbar-actions">
+        <a href="login.html" class="btn login-btn">Login</a>
+        <a href="signup.html" class="btn signup-btn">Sign up</a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <!-- Section: Success Stories -->
-<section id="success-stories" class="success-stories text-center section">
-    <div class="container">
+  <main>
+    <!-- Section: Success Stories -->
+    <section id="success-stories" class="success-stories text-center section">
+      <div class="container">
         <h2>Success Stories</h2>
-
-        <div class="row gy-5">
-          <div class="col-lg-4 col-md-6 student" data-aos="fade-up" data-aos-delay="400">
+        <div class="row gy-4 gx-4">
+          <div class="col-lg-4 col-md-6 student">
             <div class="student-img">
-              <img src="images\pexels-fatima-yusuf-323522203-19986547.jpg" class="img-fluid" alt="">
+              <img src="images/child-girl.jpg" class="img-fluid" alt="Elizabeth Wanjiku - Student success story from Kawangware slum">
             </div>
             <div class="student-info text-center">
               <h4>Elizabeth Wanjiku</h4>
@@ -28,40 +45,113 @@
               <p class="card-text">Elizabeth, a young girl from a slum, has transformed her life through education. With the help of donors like you, she now dreams of becoming a doctor and helping her community.</p>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 student">
             <div class="student-img">
-              <img src="images\0 (1).jpg" class="img-fluid" alt="">
+              <img src="images/child-girl-2.jpg" class="img-fluid" alt="Regina Wangui - Student success story from marginalized village">
             </div>
             <div class="student-info text-center">
               <h4>Regina Wangui</h4>
-              <span>Kawangware<br></span>
+              <span>Kawangware</span>
               <p class="card-text">Regina, from a marginalized village, has overcome barriers with education. She is now studying engineering, thanks to the support of generous donors.</p>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 student" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6 student">
             <div class="student-img">
-              <img src="images\pexels-fatima-yusuf-323522203-19986547.jpg" class="img-fluid" alt="">
+              <img src="images/child-boy.jpg" class="img-fluid" alt="Kevin Njuguna - Student success story and community leader">
             </div>
             <div class="student-info text-center">
-              <h4>kevin njuguna</h4>
+              <h4>Kevin Njuguna</h4>
               <span>Kawangware</span>
-              <p class="card-text">kevin's education journey has led him to leadership roles in his community. With the support of Lifted Through Education, he aims to inspire others.</p>
-            </div>
+              <p class="card-text">Kevin's education journey has led him to leadership roles in his community. With the support of LiftED, he aims to inspire others.</p>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 student">
+            <div class="student-img">
+              <img src="images/child-boy-2.jpg" class="img-fluid" alt="David Kamau - Student success story in computer science">
+            </div>
+            <div class="student-info text-center">
+              <h4>David Kamau</h4>
+              <span>Kibera</span>
+              <p class="card-text">David discovered his passion for technology through LiftED's computer literacy program. He now mentors younger students and aspires to become a software engineer.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 student">
+            <div class="student-img">
+              <img src="images/child-girl-3.jpg" class="img-fluid" alt="Sarah Akinyi - Student success story in mathematics">
+            </div>
+            <div class="student-info text-center">
+              <h4>Sarah Akinyi</h4>
+              <span>Mathare</span>
+              <p class="card-text">Sarah's exceptional talent in mathematics was nurtured through LiftED's specialized tutoring. She now helps other girls overcome their fear of math.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 student">
+            <div class="student-img">
+              <img src="images/child-girl-4.jpg" class="img-fluid" alt="Grace Muthoni - Student success story in arts and creativity">
+            </div>
+            <div class="student-info text-center">
+              <h4>Grace Muthoni</h4>
+              <span>Kawangware</span>
+              <p class="card-text">Grace's artistic talents flourished through LiftED's creative arts program. Her paintings now tell stories of hope and inspire other children to pursue their dreams.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 student">
+            <div class="student-img">
+              <img src="images/child-girl-5.jpg" class="img-fluid" alt="Faith Njeri - Student success story in environmental science">
+            </div>
+            <div class="student-info text-center">
+              <h4>Faith Njeri</h4>
+              <span>Kibera</span>
+              <p class="card-text">Faith's interest in environmental conservation was sparked through LiftED's science programs. She now leads community clean-up initiatives and educates others about sustainability.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 student">
+            <div class="student-img">
+              <img src="images/child-girl-6.jpg" class="img-fluid" alt="Mercy Wambui - Student success story in leadership">
+            </div>
+            <div class="student-info text-center">
+              <h4>Mercy Wambui</h4>
+              <span>Mathare</span>
+              <p class="card-text">Mercy's natural leadership abilities were developed through LiftED's leadership training. She now serves as a student council president and advocates for girls' education.</p>
+            </div>
+          </div>
         </div>
-
       </div>
-</section>
-        </main>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Success Stories</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <h4>Empowering Children Through Education: Building Brighter Futures One Student at a Time.</h4>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="stories.html">Success Stories</a></li>
+          <li><a href="whyeducationmatters.html">Why Education Matters</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>Email: info@lifted.org.ke</li>
+          <li>Phone: +254 700 123 456</li>
+          <li>Website: www.lifted.org.ke</li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <form>
+          <input type="email" placeholder="Enter email address" required />
+          <button type="submit" class="btn signup-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2025 LiftED. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
